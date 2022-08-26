@@ -5,25 +5,28 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 spring:
+  application:
+    name: gateway-service
   cloud:
     gateway:
       discovery:
         locator:
           enabled: true
+          lower-case-service-id: true
       routes:
-        - id: customer-service
-          uri: lb://customer-service
+        - id: customer
+          uri: lb://CUSTOMER-SERVICE
           predicates:
             - Path=/customer/**
-        - id: account-service
-          uri: lb://account-service
+        - id: account
+          uri: lb://ACCOUNT-SERVICE
           predicates:
             - Path=/account/**
-        - id: product-service
-          uri: lb://product-service
+        - id: product
+          uri: lb://PRODUCT-SERVICE
           predicates:
             - Path=/product/**
-        - id: movement-service
-          uri: lb://movement-service
+        - id: movement
+          uri: lb://MOVEMENT-SERVICE
           predicates:
             - Path=/movement/**
