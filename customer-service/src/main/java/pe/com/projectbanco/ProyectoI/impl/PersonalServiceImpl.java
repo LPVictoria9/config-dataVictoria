@@ -12,7 +12,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 
-@Service
+//@Service
 //@Component
 public class PersonalServiceImpl implements IPersonalService {
     private static final Logger logger = LoggerFactory.getLogger(PersonalServiceImpl.class);

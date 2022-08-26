@@ -11,8 +11,8 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @Slf4j
-@RestController
-@RequestMapping("/api/product")
+//@RestController
+//@RequestMapping("/api/product")
 public class ProductController {
     //private static final Logger logger = LoggerFactory.getLogger(CustomerController.class);
     @Autowired

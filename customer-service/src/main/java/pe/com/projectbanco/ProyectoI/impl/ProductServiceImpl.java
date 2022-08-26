@@ -10,7 +10,7 @@ import pe.com.projectbanco.ProyectoI.service.IProductrService;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@Service
+//@Service
 //@Component
 public class ProductServiceImpl implements IProductrService {
     private static final Logger logger = LoggerFactory.getLogger(ProductServiceImpl.class);

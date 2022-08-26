@@ -11,8 +11,8 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @Slf4j
-@RestController
-@RequestMapping("/api/account")
+//@RestController
+//@RequestMapping("/api/account")
 public class AccountController {
     @Autowired
     private IAccountService iAccountService;

@@ -13,7 +13,7 @@ import pe.com.projectbanco.ProyectoI.service.ICustomerService;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@Service
+//@Service
 //@Component
 public class AccountServiceImpl implements IAccountService {
     private static final Logger logger = LoggerFactory.getLogger(AccountServiceImpl.class);

@@ -58,7 +58,7 @@ public class CustomerController {
 
     @GetMapping("findByNroDoc/{nroOocument}")
     public  ResponseEntity<Flux<Customer>> findByNroDocument(@PathVariable("nroOocument") String nroOocument){
-        log.info("Start controllerCustomer method findByIdCustomer =>", nroOocument);
+        log.info("Start controllerCustomer method findByNroDoc =>", nroOocument);
         Flux<Customer> oListCustomer = iCustomerService.findByNroDocument(nroOocument).filter(p->p.isActive_s_n());
         return new ResponseEntity<>(oListCustomer,HttpStatus.OK);
     }

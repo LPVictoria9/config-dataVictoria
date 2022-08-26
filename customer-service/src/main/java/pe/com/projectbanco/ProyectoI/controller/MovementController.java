@@ -13,8 +13,8 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 
-@RestController
-@RequestMapping("/api/movement")
+//@RestController
+//@RequestMapping("/api/movement")
 public class MovementController {
     private static final Logger logger = LoggerFactory.getLogger(MovementController.class);
 

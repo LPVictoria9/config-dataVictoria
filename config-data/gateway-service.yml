@@ -1,0 +1,31 @@
+server:
+  port: 8090
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: CUSTOMER-SERVICE
+          uri: localhost:8087/
+          predicates:
+            - Path=/CUSTOMER-SERVICE/**
+        - id: ACCOUNT-SERVICE
+          uri: localhost:8088/
+          predicates:
+            - Path=/ACCOUNT-SERVICE/**
+        - id: PRODUCT-SERVICE
+          uri: localhost:8086/
+          predicates:
+            - Path=/PRODUCT-SERVICE/**
+        - id: MOVEMENT-SERVICE
+          uri: localhost:8089/
+          predicates:
+            - Path=/MOVEMENT-SERVICE/**

@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>pe.com.projectbanco</groupId>
-	<artifactId>Proyecto-I</artifactId>
+	<artifactId>product-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Proyecto I - Gonzales y Larrauri</name>
 	<description>Tarea Proyecto I</description>

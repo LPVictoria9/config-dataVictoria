@@ -13,8 +13,8 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 
-@RestController
-@RequestMapping("/api/business")
+//@RestController
+//@RequestMapping("/api/business")
 public class BusinessController {
     private static final Logger logger = LoggerFactory.getLogger(BusinessController.class);
 

@@ -11,7 +11,7 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 
-@Service
+//@Service
 public class MovementServiceImpl implements IMovementService {
     private static final Logger logger = LoggerFactory.getLogger(MovementServiceImpl.class);
 
