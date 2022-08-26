@@ -11,7 +11,7 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: customer-service
+        - id: CUSTOMER-SERVICE
           uri: http://localhost:8085/
           predicates:
             - Path=/customer/**
@@ -19,7 +19,7 @@ spring:
           uri: http://localhost:8088/
           predicates:
             - Path=/account/**
-        - id: product-service
+        - id: PRODUCT-SERVICE
           uri: http://localhost:8086/
           predicates:
             - Path=/product/**
