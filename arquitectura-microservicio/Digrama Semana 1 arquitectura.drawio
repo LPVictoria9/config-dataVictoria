@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T20:52:15.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.25" etag="cB7nUpghIsDZk3Qatnw1" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T20:54:19.099Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.25" etag="_ug0AVJGv-mNEWAN40so" version="20.2.8" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -18,33 +18,31 @@
         <mxCell id="ecDhr_SUKPzhUWiLF1AI-14" value="app Banco" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="130" y="250" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ecDhr_SUKPzhUWiLF1AI-15" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="ecDhr_SUKPzhUWiLF1AI-2" edge="1">
+        <mxCell id="ecDhr_SUKPzhUWiLF1AI-15" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.988;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="ecDhr_SUKPzhUWiLF1AI-2" edge="1" source="QwJdkXdDj5PMeQ1F39rr-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="290" as="sourcePoint" />
             <mxPoint x="410" y="240" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="410" y="290" />
-              <mxPoint x="360" y="240" />
+              <mxPoint x="410" y="250" />
+              <mxPoint x="450" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ecDhr_SUKPzhUWiLF1AI-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="ecDhr_SUKPzhUWiLF1AI-3" edge="1">
+        <mxCell id="ecDhr_SUKPzhUWiLF1AI-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.013;exitY=0.413;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="ecDhr_SUKPzhUWiLF1AI-3" edge="1" source="QwJdkXdDj5PMeQ1F39rr-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="290" as="sourcePoint" />
             <mxPoint x="430" y="360" as="targetPoint" />
             <Array as="points">
               <mxPoint x="400" y="310" />
-              <mxPoint x="420" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="upk0esoUlvN172wJQaYy-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="upk0esoUlvN172wJQaYy-1" edge="1">
+        <mxCell id="upk0esoUlvN172wJQaYy-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.025;exitY=0.425;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="upk0esoUlvN172wJQaYy-1" edge="1" source="QwJdkXdDj5PMeQ1F39rr-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="290" as="sourcePoint" />
             <mxPoint x="230" y="470" as="targetPoint" />
             <Array as="points">
               <mxPoint x="420" y="370" />
-              <mxPoint x="400" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -106,7 +104,7 @@
           <mxGeometry x="250" y="180" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QwJdkXdDj5PMeQ1F39rr-10" value="&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;services:&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;ol&gt;&lt;li&gt;CUSTOMER-SERVICE&lt;/li&gt;&lt;li&gt;ACCOUNT-SERVICE&lt;/li&gt;&lt;li&gt;CREDIT-SERVICE&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="180" y="360" width="180" height="70" as="geometry" />
+          <mxGeometry x="200" y="360" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="upk0esoUlvN172wJQaYy-14" value="github" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
           <mxGeometry x="425" y="615" width="60" height="30" as="geometry" />
