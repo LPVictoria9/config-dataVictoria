@@ -1,19 +1,17 @@
 server:
   port: 8888
 spring:
+  application:
+    name: configServer
   cloud:
     config:
       server:
         git:
           uri: https://github.com/LPVictoria9/config-dataVictoria
-          clone-on-start: true
-          bootstrap: true
-          enabled: true
+          default-label: future_victoriaGateway
+          search-paths: config-data
           username:  {GET_USER}
           password:  {GET_PWS}
-          search-paths: config-data
-          default-label: master
-
   security:
     user:
       name: root
