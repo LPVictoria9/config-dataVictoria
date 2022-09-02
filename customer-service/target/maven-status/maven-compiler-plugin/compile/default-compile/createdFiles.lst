@@ -1,11 +1,16 @@
 pe\com\projectbanco\ProyectoI\impl\PersonalServiceImpl.class
 pe\com\projectbanco\ProyectoI\model\Personal.class
 pe\com\projectbanco\ProyectoI\model\Business.class
+pe\com\projectbanco\ProyectoI\model\customer.class
 pe\com\projectbanco\ProyectoI\repo\IBusinessRepo.class
+pe\com\projectbanco\ProyectoI\controller\CustomerController.class
 pe\com\projectbanco\ProyectoI\service\IBusinessService.class
 pe\com\projectbanco\ProyectoI\controller\BusinessController.class
+pe\com\projectbanco\ProyectoI\repo\ICustomerRepo.class
 pe\com\projectbanco\ProyectoI\repo\IPersonalRepo.class
 pe\com\projectbanco\ProyectoI\Application.class
+pe\com\projectbanco\ProyectoI\impl\CustomerServiceImpl.class
+pe\com\projectbanco\ProyectoI\service\ICustomerService.class
 pe\com\projectbanco\ProyectoI\controller\PersonalController.class
 pe\com\projectbanco\ProyectoI\service\IPersonalService.class
 pe\com\projectbanco\ProyectoI\impl\BusinessServiceImpl.class

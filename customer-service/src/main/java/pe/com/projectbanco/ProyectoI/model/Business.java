@@ -11,7 +11,6 @@ import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
-//@Document(collection = "business")
 @Data
 
 public class Business {
@@ -19,12 +18,9 @@ public class Business {
     private String id;
     private String ruc;
     private String companyName;
-    private String legalRepresentative;
+    private List<String> legalRepresentative; //Titulares 1 o +
     private Integer nroLegalRepresentative;
-    private String signatory; // firmante
+    private List<String> signatory; // firmante 0 o +
     private boolean pyme;
-
-    //List<String> personalIds;
-
 
 }

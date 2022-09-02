@@ -27,6 +27,6 @@ public class Personal {
     private String typePersonal;
     private boolean vip;
 
-    List<String> cuentas;
+  //  List<String> cuentas;
 
 }
