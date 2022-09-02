@@ -1,8 +1,9 @@
+spring:
+  data:
+    mongodb:
+      database: bdbanco
+      host: localhost
+      port: 27017
+
 server:
   port: 8089
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-  instance:
-    prefer-ip-address: true      
