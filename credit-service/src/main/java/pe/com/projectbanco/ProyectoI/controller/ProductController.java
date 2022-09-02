@@ -6,7 +6,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import pe.com.projectbanco.ProyectoI.model.Product;
-import pe.com.projectbanco.ProyectoI.service.IPersonalService;
 import pe.com.projectbanco.ProyectoI.service.IProductrService;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -17,7 +16,7 @@ import reactor.core.publisher.Mono;
 public class ProductController {
     @Autowired
     private IProductrService iProductrService;
-    private IPersonalService iPersonalService;
+    //private IPersonalService iPersonalService;
 
     @PostMapping(value = "/create", consumes = "application/json", produces = "application/json")
     public ResponseEntity<Mono<Product>> createProduct(@RequestBody Product product) {

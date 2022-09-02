@@ -11,7 +11,7 @@ import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "personal")
+//@Document(collection = "personal")
 @Data
 
 public class Personal {
@@ -27,6 +27,6 @@ public class Personal {
     private String typePersonal;
     private boolean vip;
 
-    List<String> cuentas;
+  //  List<String> cuentas;
 
 }
