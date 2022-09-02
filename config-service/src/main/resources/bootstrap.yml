@@ -7,8 +7,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/LPVictoria9/config-dataVictoria
-          default-label: future_victoriaGateway
+          uri: https://github.com/LPVictoria9/proyectoSemana2
+          default-label: main
           search-paths: config-data
           username:  {GET_USER}
           password:  {GET_PWS}
