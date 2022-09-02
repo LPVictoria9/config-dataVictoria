@@ -21,11 +21,7 @@ spring:
           uri: lb://ACCOUNT-SERVICE/
           predicates:
             - Path=/ACCOUNT-SERVICE/**
-        - id: PRODUCT-SERVICE
-          uri: lb://PRODUCT-SERVICE/
+        - id: CREDIT-SERVICE
+          uri: lb://CREDIT-SERVICE/
           predicates:
-            - Path=/PRODUCT-SERVICE/**
-        - id: MOVEMENT-SERVICE
-          uri: lb://MOVEMENT-SERVICE/
-          predicates:
-            - Path=/MOVEMENT-SERVICE/**
+            - Path=/CREDIT-SERVICE/**
