@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>pe.com.projectbanco</groupId>
-	<artifactId>Proyecto-I</artifactId>
+	<artifactId>movement-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Proyecto I - Gonzales y Larrauri</name>
+	<name>movement-service</name>
 	<description>Tarea Proyecto I</description>
 	<properties>
 		<java.version>11</java.version>
