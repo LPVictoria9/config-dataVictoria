@@ -7,22 +7,24 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.validation.Valid;
+import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "business")
+//@Document(collection = "business")
 @Data
 
 public class Business {
     @Id
     private String id;
-    private String idBusiness;
     private String ruc;
     private String companyName;
     private String legalRepresentative;
     private Integer nroLegalRepresentative;
-    @Valid
-    private Customer customer;
+    private String signatory; // firmante
+    private boolean pyme;
+
+    //List<String> personalIds;
 
 
 }
